@@ -8,4 +8,5 @@ dependencies:
   - cf_xarray
   - extract_model
   - netcdf4
+  - pandas
   - xarray
