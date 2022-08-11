@@ -6,9 +6,8 @@ dependencies:
   - pangeo-notebook==2022.07.12
   # The rest of the packages are up to you!
   - cf_xarray
+  - extract_model
   - netcdf4
   - pandas
   - pip
   - xarray
-  - pip:
-    - git+https://github.com:axiom-data-science/extract_model.git@updates_to_version
