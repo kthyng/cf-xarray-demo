@@ -3,10 +3,12 @@ channels:
   - conda-forge
 dependencies:
   # You need the pangeo-notebook conda-forge package in your environment.yml for compatibility with pangeo cloud deployments
-  - pangeo-notebook==2022.07.12
+  # - pangeo-notebook==2022.07.12
   # The rest of the packages are up to you!
   - cf_xarray
-  - extract_model
   - netcdf4
+  - pandas
   - pip
   - xarray
+  - pip:
+    - git@github.com:axiom-data-science/extract_model.git@updates_to_version
