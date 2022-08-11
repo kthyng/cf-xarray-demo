@@ -1,11 +1,12 @@
-name: myenv
+name: cf_xarray_demo
 channels:
   - conda-forge
 dependencies:
   # You need the pangeo-notebook conda-forge package in your environment.yml for compatibility with pangeo cloud deployments
   - pangeo-notebook==2022.07.12
   # The rest of the packages are up to you!
-  - cf-xarray
+  - cf_xarray
   - extract_model
   - netcdf4
+  - pip
   - xarray
