@@ -11,4 +11,4 @@ dependencies:
   - pip
   - xarray
   - pip:
-    - git@github.com:axiom-data-science/extract_model.git@updates_to_version
+    - git+https://github.com:axiom-data-science/extract_model.git@updates_to_version
